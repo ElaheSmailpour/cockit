@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cockpit';
+  name="eli";
+  message="";
+  flag:boolean=false;
+  
+
+  show():void{
+    this.flag=!this.flag;
+    }
 }
